@@ -1,0 +1,16 @@
+#home {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh; /* Set minimum height to fill viewport */
+  width: 100vw; /* Ensure home section takes full width */
+  box-sizing: border-box; /* Make sure padding and border are included in width */
+}
+
+.MuiAccordion-root {
+  width: 1000px; /* Set a relative width */
+  max-width: 100vw; /* Ensure it doesn't exceed the viewport width */
+  margin-bottom: 16px; /* Add some space between accordions */
+  box-sizing: border-box; /* Make sure padding and border are included in width */
+}
+
