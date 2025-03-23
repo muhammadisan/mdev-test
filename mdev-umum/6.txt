@@ -1,0 +1,10 @@
+Dalam kasus apa State Management Global di React bagus digunakan dan dalam kasus apa State Management Global di React tidak bagus digunakan ?
+
+Bagus digunakan:
+1. State yang dipakai di banyak komponen (misal user profile, token)
+2. Aplikasi besar dengan banyak tim. Menjaga state agar konsisten di semua tempat
+3. Pemantauan debugging bisa lebih baik dengan redux
+
+Tidak bagus digunakan:
+1. Aplikasi sederhana. State management global bisa terlalu berlebihan dan membuat code lebih kompleks.
+2. State yang hanya dibutuhkan di satu komponen atau anak komponen secara langsung. Gunakan saja local state

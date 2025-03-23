@@ -1,0 +1,3 @@
+Bagaimana cara handling response error jika mendapatkan error sebagai berikut, "InternalServerError: Please check log for detailed error" ?
+
+Tambahkan logger untuk melihat logs dan gunakan logger di controllers dann services. Di sini saya implementasi global di app.ts saja untuk kecepatan implementasi

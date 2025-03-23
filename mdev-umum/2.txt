@@ -1,0 +1,9 @@
+Apakah penggunaan console.log pada di production diperbolehkan dan jelaskan alasannya ?
+
+Tidak disarankan menggunakan console.log di prodcution karena dapat:
+1. Memperlambat kinerja aplikasi jika sudah banyak user request.
+2. Bisa saja ada informasi sensitif seperti data user, token.
+3. Terlalu berantakan, sebaiknya menggunakan framework logger yang lebih terstruktur
+4. Tidak dapat diintegrasikan dengan sistem logging seperti Elasticsearch
+
+Sebaiknya menggunakan framework logger seperti winston atau pino
